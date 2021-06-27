@@ -10,6 +10,11 @@ public class SeleniumTest {
 	private String name;
 	private int issueNumber;
 	
+	public SeleniumTest() {
+		this.name = "Demo";
+		this.issueNumber = 1;
+	}
+	
 	public SeleniumTest(String name, int issueNumber) {
 		super();
 		this.name = name;
