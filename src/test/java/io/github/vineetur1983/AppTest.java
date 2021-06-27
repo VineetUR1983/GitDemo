@@ -25,7 +25,9 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        System.out.println("This is the Test Suite");
+        System.out.println("Running from Test Suite Method");
+    	return new TestSuite( AppTest.class );
     }
 
     /**
