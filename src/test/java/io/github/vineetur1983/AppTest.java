@@ -27,6 +27,13 @@ public class AppTest
     {
         System.out.println("This is the Test Suite");
         System.out.println("Running from Test Suite Method");
+        System.out.println("This is update from User1");
+        System.out.println("This is update from User1");
+        System.out.println("This is update from User1");
+        System.out.println("This is update from User1");
+        System.out.println("This is update from User1");
+        
+        
     	return new TestSuite( AppTest.class );
     }
 
