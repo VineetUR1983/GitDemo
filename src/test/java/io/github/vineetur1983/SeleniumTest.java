@@ -1,5 +1,10 @@
 package io.github.vineetur1983;
 
+/**
+ * 
+ * @author Vineet
+ * 
+ */
 public class SeleniumTest {
 	
 	private String name;
@@ -9,6 +14,11 @@ public class SeleniumTest {
 		super();
 		this.name = name;
 		this.issueNumber = issueNumber;
+	}
+	
+	public SeleniumTest(String name) {
+		this.name = name;
+		this.issueNumber = 1;
 	}
 
 	public String getName() {
