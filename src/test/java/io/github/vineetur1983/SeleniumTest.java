@@ -3,7 +3,8 @@ package io.github.vineetur1983;
 /**
  * 
  * @author Vineet
- * 
+ * @category Test
+ * @version 0.1
  */
 public class SeleniumTest {
 	
