@@ -10,6 +10,7 @@ public class SeleniumTest {
 	
 	private String name;
 	private int issueNumber;
+	private double versionNo;
 	
 	public SeleniumTest() {
 		this.name = "Demo";
@@ -41,6 +42,14 @@ public class SeleniumTest {
 
 	public void setIssueNumber(int issueNumber) {
 		this.issueNumber = issueNumber;
+	}
+	
+	public double getVersion() {
+		return versionNo;
+	}
+	
+	public void setVersion(double version) {
+		this.versionNo = version;
 	}
 	
 
